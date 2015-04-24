@@ -1,4 +1,5 @@
 now="$(date +'%d_%m_%Y')"
+fordate=now="$(date +'%d_%m_%Y_%H_%M_%S')"
 fili=$now
 
 touch $fili.html
@@ -8,5 +9,5 @@ echo  "After being featured in too many magazines to mention and having created 
 echo  "we know that Ooooh is going to be big. You may have seen us in the Dinosaurs’ Den where " >> $fili.html
 
 git add --all
-git commit -m "Commit $now"
+git commit -m "Commit $fordate"
 git push origin master
