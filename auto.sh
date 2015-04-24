@@ -1,5 +1,5 @@
 now="$(date +'%d_%m_%Y')"
-fordate=now="$(date +'%d_%m_%Y_%H_%M_%S')"
+fordate="$(date +'%d_%m_%Y_%H_%M_%S')"
 fili=$now
 
 touch $fili.html
