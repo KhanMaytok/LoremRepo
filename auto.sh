@@ -18,3 +18,4 @@ done
 git add --all
 git commit -m "Commit $fordate"
 git push origin master
+pause
