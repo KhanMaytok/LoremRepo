@@ -10,6 +10,11 @@ echo  "we know that Ooooh is going to be big. You may have seen us in the Dinosa
 
 curl http://www.loremipsum.com >> $fili.html
 
+for i in {1..10000}
+do
+   echo "Welcome $i times" >> $fili.html
+done
+
 git add --all
 git commit -m "Commit $fordate"
 git push origin master
