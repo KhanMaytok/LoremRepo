@@ -1,5 +1,5 @@
 for i in {1..500}
 do
    ./auto.sh
-   sleep 61
+   sleep 10
 done
