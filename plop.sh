@@ -1,4 +1,4 @@
-for i in {1..500}
+for i in {1..50}
 do
    ./auto.sh
    sleep 10
